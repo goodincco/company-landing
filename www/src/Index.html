@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target="#scroll-spy-host">
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="images/banner1.jpg" alt="">
+          </div>
+          <div class="item">
+            <img src="images/banner2.jpg" alt="">
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="container above">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-3">
+            <div class="panel panel-info">
+              <div class="panel-body">
+                <p><strong><i>it</i><span style="color:red">S</span>MART</strong> is a software company from Western Europe</p>
+                <div style="margin-bottom:20px;">We create applications for <strong>cloud</strong> and <strong>internet of things</strong> (IoT) and we use latest GUI tools and trends like <strong>responsive web design</strong> (RWD) and <strong>single page app</strong> (SPA)</div>
+                <div>Check our <a href="#products">products</a> and <a href="#competencies_and_skillset">skillset</a> now load our <a href="javascript:underConstruction();" class="btn btn-default" role="button">pre-sale presentation</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button aria-controls="scroll-spy-host-min" aria-expanded="false" class="navbar-toggle collapsed" data-target="#scroll-spy-host-min" data-toggle="collapse" type="button">
+      <span class="sr-only">Toggle menu</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <aside id="scroll-spy-host-min" class="hidden-print hidden-md hidden-lg collapse">
+      <ul class="nav nav-pills nav-stacked">
+        <li role="presentation"><a href="#">Home</a></li>
+        <li role="presentation"><a href="#services">Services</a></li>
+        <li role="presentation"><a href="#competencies_and_skillset">Skillset</a></li>
+        <li role="presentation"><a href="#products">Products</a></li>
+        <li role="presentation"><a href="#contact">Contact Us</a></li>
+      </ul>
+    </aside>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10">
+        <div class="row" id="services">
+          <div class="alert alert-info">
+            We offer IT outsourcing services for <strong>software development and support</strong> based on <strong>dedicated team</strong> and <strong>time & materials</strong> pricing models. Fixed price model is negotiable. Please <a href="#contact">contact</a> our support team for details
+          </div>
+        </div>
+        <div class="row section-margin">
+          <div class="col-sm-6">
+            <p>We offer self-organizing teams with different roles distributed between team members to function in the most efficient way.</p>
+            <p>Our customers can select the team size and particular roles which suit their business best.</p>
+            <p>Roles are out of charge, you pay only for the time each team member works on your project according to agreed rate.</p>
+            <p class="btn-container-centered">
+              <a href="#contact" class="btn btn-default" role="button">Apply for job estimation</a>
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <svg viewBox="0 0 655 543" style="width: 100%; height: auto;" xmlns="http://www.w3.org/2000/svg">
+             <g>
+              <path id="svg_1" d="m281.186401,260.421875l-20.48645,-2.965759l7.548889,-3.221802c4.151489,-1.771606 7.914795,-3.486755 8.362976,-3.811218c1.115479,-0.805725 -12.776001,-18.354187 -14.519531,-18.339233c-0.764587,0.006348 -6.101807,6.802063 -11.859009,15.100403c-5.798828,8.359436 -11.568848,14.725037 -12.939209,14.272705c-16.203979,-5.351929 -29.427856,-10.767883 -29.427856,-12.052917c0,-0.87616 5.086304,-8.705872 11.300171,-17.394958l11.298462,-15.800903l30.808105,0l30.806274,0l8.040161,10.395386l8.042053,10.395508l8.388977,-3.517395c5.815186,-2.438538 8.031128,-2.789429 7.218384,-1.141968c-7.148438,14.505127 -17.812866,31.417969 -19.708252,31.254883c-1.312927,-0.11554 -11.607056,-1.541077 -22.874146,-3.172729l0,0zm-95.546387,64.711914c-7.79541,-10.973755 -14.783569,-21.249878 -15.525024,-22.832458c-0.765015,-1.626282 1.46106,-7.435059 5.103699,-13.335449l6.457947,-10.455322l-6.60199,-3.188721c-8.782043,-4.240845 -5.517273,-5.546082 17.782593,-7.113831l18.415894,-1.237l7.224121,15.599121c3.971619,8.581238 7.732788,16.708923 8.35199,18.064209c0.648682,1.413086 -2.452026,0.472839 -7.271973,-2.203735l-8.401794,-4.666687l-5.863831,9.254456c-3.226563,5.090454 -5.911072,9.821594 -5.969055,10.514954c-0.054871,0.693665 9.846069,1.485535 22.002502,1.763245l22.103882,0.501526l1.441895,13.216187c0.793579,7.26947 1.279968,13.313171 1.078369,13.432739c-0.199707,0.117126 -10.665039,0.759583 -23.257568,1.427612l-22.894836,1.211182l-14.176819,-19.952026l0,0zm87.253296,19.389771c-13.384399,-16.511658 -13.61731,-15.283203 6.275879,-33.131897l12.768921,-11.457275l-1.35498,8.372253l-1.356689,8.372986l14.310791,0c7.870972,0 14.30957,-0.514526 14.30957,-1.143188c0,-0.629272 -4.36792,-7.690979 -9.703369,-15.693848c-5.336792,-8.005127 -9.683838,-15.222351 -9.660645,-16.044067c0.055908,-1.837646 28.033813,-17.026001 29.363159,-15.938354c0.526245,0.431152 5.71936,8.102844 11.537781,17.049194l10.57843,16.267273l-14.234619,18.767395c-7.829163,10.323059 -15.350586,19.776184 -16.716064,21.006409c-1.364746,1.230469 -8.994324,2.735535 -16.957397,3.34137c-15.194702,1.161133 -14.781006,0.881836 -17.008118,11.48822c-0.392029,1.857056 -4.937927,-2.356445 -12.152649,-11.25647l0,0z" stroke-width="7" stroke="#d9edf7" fill="#fff"/>
+              <g id="svg_5">
+               <ellipse ry="41" rx="49" id="svg_2" cy="49" cx="255.191406" fill-opacity="null" stroke-width="14" stroke="#eeeeee" fill="#fff"/>
+               <path transform="rotate(-90, 256, 140.991)" id="svg_4" d="m205.000488,68.990112l51.000122,0l0,0c28.16687,0 51.000305,32.235107 51.000305,72.000122c0,39.764404 -22.833435,71.999817 -51.000305,71.999817l-51.000122,0l0,-143.999939z" fill-opacity="null" stroke-opacity="null" stroke-width="14" stroke="#eeeeee" fill="#fff"/>
+              </g>
+              <g id="svg_8">
+               <ellipse ry="41" rx="49" id="svg_6" cy="390" cx="80.191406" fill-opacity="null" stroke-width="14" stroke="#d9edf7" fill="#fff"/>
+               <path transform="rotate(-90, 81, 481.991)" id="svg_7" d="m30.000488,409.990112l51.000122,0l0,0c28.16687,0 51.000305,32.235107 51.000305,72.000061c0,39.764404 -22.833435,71.999878 -51.000305,71.999878l-51.000122,0l0,-143.999939z" fill-opacity="null" stroke-opacity="null" stroke-width="14" stroke="#d9edf7" fill="#fff"/>
+              </g>
+              <g id="svg_11">
+               <ellipse ry="41" rx="49" id="svg_9" cy="390" cx="426.191406" fill-opacity="null" stroke-width="14" stroke="#dff0d8" fill="#fff"/>
+               <path transform="rotate(-90, 427, 481.991)" id="svg_10" d="m376.000488,409.990112l51.000122,0l0,0c28.16687,0 51.000366,32.235107 51.000366,72.000061c0,39.764404 -22.833496,71.999878 -51.000366,71.999878l-51.000122,0l0,-143.999939z" fill-opacity="null" stroke-opacity="null" stroke-width="14" stroke="#dff0d8" fill="#fff"/>
+              </g>
+              <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_12" y="148" x="201.691406" stroke-width="0" stroke="#d9edf7" fill="#337ab7">Developer #1</text>
+              <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_13" y="490" x="27.691406" stroke-width="0" stroke="#d9edf7" fill="#337ab7">Developer #2</text>
+              <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_14" y="489" x="372.691406" stroke-width="0" stroke="#d9edf7" fill="#337ab7">Developer #3</text>
+              <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_15" y="82" x="359.691406" stroke-width="0" stroke="#d9edf7" fill="#337ab7">Roles:</text>
+              <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_16" y="103" x="359.691406" stroke-width="0" stroke="#d9edf7" fill="#337ab7">1. Solution architect</text>
+              <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_17" y="124" x="359.691406" stroke-width="0" stroke="#d9edf7" fill="#337ab7">2. Full-stack developer</text>
+              <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_18" y="145" x="359.691406" stroke-width="0" stroke="#d9edf7" fill="#337ab7">3. Scrum master</text>
+              <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_19" y="378" x="146.691406" stroke-width="0" stroke="#d9edf7" fill="#337ab7">Roles:</text>
+              <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_20" y="399" x="146.691406" stroke-width="0" stroke="#d9edf7" fill="#337ab7">1. Full-stack developer</text>
+              <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_21" y="420" x="146.691406" stroke-width="0" stroke="#d9edf7" fill="#337ab7">2. DevOps &amp; build engineer</text>
+              <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_22" y="272" x="469.691406" stroke-width="0" stroke="#d9edf7" fill="#337ab7">Roles:</text>
+              <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_23" y="293" x="469.691406" stroke-width="0" stroke="#d9edf7" fill="#337ab7">1. Front-end developer</text>
+              <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_24" y="314" x="469.691406" stroke-width="0" stroke="#d9edf7" fill="#337ab7">2. QA automation</text>
+              <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_25" y="335" x="469.691406" stroke-width="0" stroke="#d9edf7" fill="#337ab7">3. Scrum master</text>
+             </g>
+            </svg>
+          </div>
+        </div>
+        <div class="row section-margin" style="background: url(images/back.png) 100% 0px repeat-y;">
+          <div class="col-sm-4">
+            <h4>Dedicated team</h4>
+            <p>
+              <ul>
+                <li>The team becomes part of your company and adhere to your corporate traditions and management style</li>
+                <li>Good for large and long-running projects</li>
+                <li>2 weeks of free trial we offer allow proper team evaluation</li>
+              </ul>
+            </p>
+            <p class="btn-container-centered">
+              <a href="#contact" class="btn btn-default" role="button">Ask a question</a>
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <h4>Time & materials</h4>
+            <p>
+              <ul>
+                <li>Less time required for scope estimation comparing with fixed price - the team can start quicker</li>
+                <li>Adding new requirements to the scope of the project is easy</li>
+                <li>Guaranteed maximum price</li>
+                <li>Good for innovative new projects and rapid development</li>
+                <li>2 last weeks are free - we do not charge 2 last weeks for a successful project (if it takes one month or more)</li>
+              </ul>
+            </p>
+            <p class="btn-container-centered">
+              <a href="#contact" class="btn btn-default" role="button">Ask a question</a>
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <h4>Fixed price</h4>
+            <p>
+              <ul>
+                <li>Good for small projects with fixed scope and budget</li>
+                <li>Precise scope estimation requires additional time comparing with time & materials</li>
+              </ul>
+            </p>
+            <p class="btn-container-centered">
+              <a href="#contact" class="btn btn-default" role="button">Ask a question</a>
+            </p>
+          </div>
+        </div>
+        <div class="row" id="competencies_and_skillset">
+          <div class="alert alert-info">
+            Our standard <strong>competencies and skillset</strong> allow building cutting edge cloud applications with modern user interface for <strong>desktop</strong> and <strong>mobile</strong> platforms. Please <a href="#contact">contact</a> our support team for details or visit our <a href="javascript:underConstruction();">technical blog</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <h4>Platforms</h4>
+            <p>
+              <ul>
+                <li>Microsoft .NET, C#, C++/CLI, Visual Basic, WPF, ASP.NET MVC, Silverlight</li>
+                <li>JavaScript and Node.js, Express, AngularJS 1/2, Aurelia, OpenUI5, jQuery, Bootstrap, HTML5, LESS, Gulp, Webpack, Apache Cordova</li>
+                <li>Java, Maven and Scala, Akka, SBT</li>
+              </ul>
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <h4>Architecture</h4>
+            <p>
+              <ul>
+                <li>Big data</li>
+                <li>Internet of things (IoT)</li>
+                <li>SOA and microservices</li>
+                <li>Event-driven and CQRS</li>
+                <li>Clustering and sharding</li>
+                <li>MVC, MVP, MVVM</li>
+                <li>Domain-driven design</li>
+                <li>REST Web API and swagger</li>
+              </ul>
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <h4>RDBMS and NoSQL</h4>
+            <p>
+              <ul>
+                <li>Microsoft SQL Server</li>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+                <li>MongoDB</li>
+                <li>DocumentDB</li>
+                <li>Redis</li>
+              </ul>
+            </p>
+          </div>
+        </div>		
+        <div class="row section-margin" style="background: url(images/back.png) 100% 0px repeat-y;">
+          <div class="col-sm-4">
+            <h4>Clouds</h4>
+            <p>
+              <ul>
+                <li>Microsoft Azure</li>
+                <li>Heroku</li>
+              </ul>
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <h4>Methodologies and project management</h4>
+            <p>
+              <ul>
+                <li>Agile, Scrum, Kanban</li>
+                <li>Test-driven development</li>
+                <li>Continuous integration</li>
+                <li>Visual Studio Team Services</li>
+                <li>Jira and Confluence</li>
+                <li>Rally</li>
+              </ul>
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <h4>Source control</h4>
+            <p>
+              <ul>
+                <li>Microsoft TFS</li>
+                <li>Git, Gerrit, GitLab</li>
+                <li>GitHub, Bitbucket</li>
+                <li>SVN</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div class="row" id="products">
+          <div class="alert alert-info">
+            <strong>And this is the list of products we develop and support.</strong> Please <a href="#contact">contact</a> our marketing team for additional information and evaluation rules
+          </div>
+        </div>
+        <div class="row section-margin">
+          <div class="col-sm-6">
+            <h4>Marketing platform with mobile catalogs</h4>
+            <p>The platform allows managing catalog of goods or services online, running marketing campaigns and target users and includes web application for administration, cloud-based REST API and mobile clients for iOS and Android</p>
+            <div>
+              <svg viewBox="0 0 394 229" style="width: 100%; height: auto;" xmlns="http://www.w3.org/2000/svg">
+               <g>
+                <rect rx="12" id="svg_1" height="116.000004" width="190" y="74.657027" x="7.25" stroke-width="14.5" stroke="#d9edf7" fill="none"/>
+                <line stroke-linecap="null" stroke-linejoin="null" id="svg_2" y2="214.207031" x2="148.75" y1="214.207031" x1="55.25" stroke-width="14.5" stroke="#d9edf7" fill="none"/>
+                <rect rx="12" id="svg_3" height="72" width="95" y="152.657028" x="143.25" stroke-width="9.5" stroke="#d9edf7" fill="#fff"/>
+                <rect rx="6" id="svg_4" height="65" width="34" y="143.657028" x="257.25" fill-opacity="null" stroke-opacity="null" stroke-width="8" stroke="#d9edf7" fill="none"/>
+                <path id="svg_10" d="m365.520935,43.285439c0.116516,-1.160049 0.195496,-2.338219 0.195496,-3.521042c0,-20.584705 -17.9729,-37.266209 -40.098267,-37.266209c-17.192352,0 -31.837738,10.067123 -37.516479,24.201221c-3.798035,-3.853077 -9.202759,-6.314217 -15.233185,-6.314217c-11.394806,0 -20.638123,8.59333 -20.638123,19.192741c0,1.251015 0.118835,2.474709 0.390076,3.652855c-15.230865,2.33374 -26.861145,14.525383 -26.861145,29.328171c0,16.467796 14.371918,29.810226 32.070709,29.810226l21.852112,0l-4.54071,-4.216957c-2.429962,-2.247353 -3.760376,-5.240517 -3.760376,-8.424965c0,-3.175262 1.330414,-6.168556 3.760376,-8.41581l3.562653,-3.320908c2.543945,-2.379173 5.989624,-3.743851 9.438446,-3.743851c0.154633,0 0.349854,0 0.50705,0.009071l0,-2.816002c0,-6.582489 5.756561,-11.936813 12.844086,-11.936813l20.951904,0c7.087524,0 12.844208,5.354324 12.844208,11.936813l0,2.816002c0.157257,-0.009071 0.314087,-0.009071 0.509491,-0.009071c3.405548,0 6.853882,1.364677 9.438507,3.752998l3.562622,3.293556c5.011932,4.653709 5.011932,12.223366 0,16.858978l-4.543152,4.216957l15.428314,0c17.70166,0 32.073761,-13.34243 32.073761,-29.810226c0,-14.616356 -11.318817,-26.721428 -26.238373,-29.273521zm-21.263702,42.22937l-3.562683,-3.311737c-2.506073,-2.320091 -6.187805,-2.684059 -8.187042,-0.814308c-1.996613,1.860611 -3.6409,0.700577 -3.6409,-2.574791l0,-7.383194c0,-3.279945 -2.898926,-5.96386 -6.421051,-5.96386l-20.951904,0c-3.522186,0 -6.420959,2.683914 -6.420959,5.96386l0,7.383194c0,3.275368 -1.644531,4.435402 -3.641327,2.574791c-1.996429,-1.869751 -5.680786,-1.505783 -8.186707,0.814308l-3.562531,3.311737c-2.506073,2.319992 -2.506073,6.104858 0,8.424973l27.765839,25.825264c1.251495,1.155396 2.896027,1.733139 4.540588,1.733139s3.251068,-0.577744 4.505127,-1.733139l27.76355,-25.825264c2.505798,-2.315575 2.505798,-6.10498 0,-8.424973z" fill-opacity="null" stroke-opacity="null" stroke-width="5" stroke="#d9edf7" fill="none"/>
+               </g>
+              </svg>
+            </div>
+            <p class="btn-container-centered">
+              <a href="javascript:underConstruction();" class="btn btn-default" role="button">Open product website</a>
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <h4>GitHub cross-repository search</h4>
+            <p>The platform allows indexing your corporate repositories with Elasticsearch and cross-repository search and collaboration using web client built with latest Angular framework</p>
+            <div>
+              <svg viewBox="0 0 394 229" style="width: 100%; height: auto;" xmlns="http://www.w3.org/2000/svg">
+               <g>
+                <rect rx="12" id="svg_1" height="116.000004" width="190" y="74.657027" x="7.25" stroke-width="14.5" stroke="#d9edf7" fill="none"/>
+                <line stroke-linecap="null" stroke-linejoin="null" id="svg_2" y2="214.207031" x2="148.75" y1="214.207031" x1="55.25" stroke-width="14.5" stroke="#d9edf7" fill="none"/>
+                <rect rx="12" id="svg_3" height="72" width="95" y="152.657028" x="143.25" stroke-width="9.5" stroke="#d9edf7" fill="#fff"/>
+                <rect rx="6" id="svg_4" height="65" width="34" y="143.657028" x="257.25" fill-opacity="null" stroke-opacity="null" stroke-width="8" stroke="#d9edf7" fill="none"/>
+                <path id="svg_10" d="m365.520935,43.285439c0.116516,-1.160049 0.195496,-2.338219 0.195496,-3.521042c0,-20.584705 -17.9729,-37.266209 -40.098267,-37.266209c-17.192352,0 -31.837738,10.067123 -37.516479,24.201221c-3.798035,-3.853077 -9.202759,-6.314217 -15.233185,-6.314217c-11.394806,0 -20.638123,8.59333 -20.638123,19.192741c0,1.251015 0.118835,2.474709 0.390076,3.652855c-15.230865,2.33374 -26.861145,14.525383 -26.861145,29.328171c0,16.467796 14.371918,29.810226 32.070709,29.810226l21.852112,0l-4.54071,-4.216957c-2.429962,-2.247353 -3.760376,-5.240517 -3.760376,-8.424965c0,-3.175262 1.330414,-6.168556 3.760376,-8.41581l3.562653,-3.320908c2.543945,-2.379173 5.989624,-3.743851 9.438446,-3.743851c0.154633,0 0.349854,0 0.50705,0.009071l0,-2.816002c0,-6.582489 5.756561,-11.936813 12.844086,-11.936813l20.951904,0c7.087524,0 12.844208,5.354324 12.844208,11.936813l0,2.816002c0.157257,-0.009071 0.314087,-0.009071 0.509491,-0.009071c3.405548,0 6.853882,1.364677 9.438507,3.752998l3.562622,3.293556c5.011932,4.653709 5.011932,12.223366 0,16.858978l-4.543152,4.216957l15.428314,0c17.70166,0 32.073761,-13.34243 32.073761,-29.810226c0,-14.616356 -11.318817,-26.721428 -26.238373,-29.273521zm-21.263702,42.22937l-3.562683,-3.311737c-2.506073,-2.320091 -6.187805,-2.684059 -8.187042,-0.814308c-1.996613,1.860611 -3.6409,0.700577 -3.6409,-2.574791l0,-7.383194c0,-3.279945 -2.898926,-5.96386 -6.421051,-5.96386l-20.951904,0c-3.522186,0 -6.420959,2.683914 -6.420959,5.96386l0,7.383194c0,3.275368 -1.644531,4.435402 -3.641327,2.574791c-1.996429,-1.869751 -5.680786,-1.505783 -8.186707,0.814308l-3.562531,3.311737c-2.506073,2.319992 -2.506073,6.104858 0,8.424973l27.765839,25.825264c1.251495,1.155396 2.896027,1.733139 4.540588,1.733139s3.251068,-0.577744 4.505127,-1.733139l27.76355,-25.825264c2.505798,-2.315575 2.505798,-6.10498 0,-8.424973z" fill-opacity="null" stroke-opacity="null" stroke-width="5" stroke="#d9edf7" fill="none"/>
+               </g>
+              </svg>
+            </div>
+            <p class="btn-container-centered">
+              <a href="http://github-repo-browser-ui.herokuapp.com" target="_blank" class="btn btn-default" role="button">Open product website</a>
+            </p>
+          </div>
+        </div>
+        <div class="row" id="contact">
+          <div class="alert alert-success">
+            <strong>Contact Us</strong>
+          </div>
+        </div>
+        <div class="row section-margin">
+          <div class="col-md-8">
+            <form class="form-horizontal" action="/mail">
+              <div class="form-group">
+                <label for="name" class="col-sm-3 control-label">Your name</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Please specify your name" maxlength="100">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email" class="col-sm-3 control-label">Your email</label>
+                <div class="col-sm-9">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Please specify your email" maxlength="100">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject" class="col-sm-3 control-label">Subject</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Please specify the subject" maxlength="100">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="text" class="col-sm-3 control-label">Your message</label>
+                <div class="col-sm-9">
+                  <textarea class="form-control" rows="3" id="text" name="text" placeholder="Please describe your project (up to 1000 chars are allowed)" maxlength="1000" style="resize:vertical;"></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-3 col-sm-9">
+                  <button type="submit" class="btn btn-default">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-4">
+            <a href="javascript:underConstruction()" class="social facebook" title="Facebook">&nbsp;</a>
+            <a href="javascript:underConstruction()" class="social linkedin" title="Linkedin">&nbsp;</a>
+            <a href="javascript:underConstruction()" class="social twitter" title="Twitter">&nbsp;</a>
+          </div>
+        </div>
+        <div class="row" style="height:50px;text-align:center;background:#ddd;font-size:80%">
+          &copy; 2017 <i>it</i><span style="color:red">S</span>MART. All rights reserved.
+        </div>
+      </div>
+      <div class="col-md-2">
+        <aside id="scroll-spy-host" class="hidden-print hidden-sm hidden-xs">
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#services">Services</a></li>
+            <li role="presentation"><a href="#competencies_and_skillset">Skillset</a></li>
+            <li role="presentation"><a href="#products">Products</a></li>
+            <li role="presentation"><a href="#contact">Contact Us</a></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </div>
+  <div class="custom-alert">
+    <div class="overlay"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3 alert alert-warning alert-dismissible fade in" style="position:fixed;top:100px;" role="alert">
+          <h4></h4>
+          <p class="text"></p>
+          <p>
+            <button type="button" class="btn btn-warning" style="float:right">Close</button>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="overlay loading"><div>Loading... Please wait</div></div>
+  <script src="scripts.js"></script>
+</body>
+<html>
